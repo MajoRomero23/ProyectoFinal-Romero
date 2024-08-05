@@ -1,0 +1,68 @@
+[
+    {
+        "id": "Bad-boys-4",
+        "titulo": "Bad boys 4",
+        "imagen": "./img/badboys.webp",
+        "categoria":{
+            "nombre": "Accion",
+            "id":"Accion"
+        },
+        "precio": 150,
+        "duracion": 115
+    },
+    {
+        "id": "El-ultimo-conjuro",
+        "titulo": "El ultimo conjuro",
+        "imagen": "./img/conjuro.jpg",
+        "categoria":{
+            "nombre": "Terror",
+            "id":"Terror"
+        },
+        "precio": 200,
+        "duracion": 110
+    },
+    {
+        "id": "Deadpool-&-Wolverine",
+        "titulo": "Deadpool & Wolverine",
+        "imagen":"./img/deadpool.jpg",
+        "categoria":{
+            "nombre": "Accion",
+            "id":"Accion"
+        },
+        "precio": 250,
+        "duracion": 127
+    },
+    {
+        "id": "Intensamente-2",
+        "titulo": "Intensamente 2",
+        "imagen": "./img/intensamente.jpeg",
+        "categoria":{
+            "nombre": "Infantiles",
+            "id":"Infantiles"
+        },
+        "precio": 300,
+        "duracion": 96
+    },
+    {
+        "id": "Mi-Villano-Favorito",
+        "titulo": "Mi Villano Favorito",
+        "imagen": "./img/mivillanofavorito.jpg",
+        "categoria":{
+            "nombre": "Infantiles",
+            "id":"Infantinles"
+        },
+        "precio": 350,
+        "duracion":95
+    },
+    {
+        "id": "Tornados",
+        "titulo": "Tornados",
+        "imagen": "./img/tornados.webp",
+        "categoria":{
+            "nombre": "Accion",
+            "id":"Accion"
+        },
+        "precio": 400,
+        "duracion": 122
+    }
+]

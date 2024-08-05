@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumen de compras</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <aside>
+            <header>
+                <h1 class="logo">Cine Actual</h1>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a class="botonMenu botonVolver" href="./index.html"><i class="bi bi-arrow-left-square-fill"></i></i>Seguir comprando</a>
+                    </li>
+                    <li>
+                        <a class="botonMenu botonResumen active" href="./resumen.html"><i class="bi bi-ticket-detailed-fill"></i>Boletos</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <main>
+            <h2 class="tituloPrincipal">Resumen de Compra</h2>
+            <div class="contenedorResumen">
+                <p id="resumenVacio" class="resumenVacio">No has comprado ninguna entrada <i class="bi bi-inbox"></i></p>
+
+                <div id="resumenBoletos" class="resumenBoletos disabled">
+
+            </div>
+            <div id="resumenOpciones" class="resumenOpciones disabled">
+                <div class="resumenOpcionesIzquierda">
+                    <button id="botonVaciar" class="resumenOpcionesVaciar">Vaciar Resumen</button>
+                </div>
+                <div class="resumenOpcionesDerecha">
+                    <div class="resumenOpcionesTotal">
+                        <p> Total $</p>
+                        <p id="total"> $600</p>
+                    </div>
+                    <button id="botonComprar" class="resumenAccionesComprar">Comprar ahora</button>
+                </div>
+            </div>
+            <p id="resumenComprado" class="resumenComprado disabled">Muchas gracias por tu compra<i class="bi bi-bag-check"></i></p>
+        </div>
+        </main>
+    
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/carrito.js"></script>
+</body>
+</html>
